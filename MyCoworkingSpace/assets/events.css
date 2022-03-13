@@ -1,0 +1,26 @@
+.events {position: relative;}
+.events .bx-wrapper {position: absolute;left: 0;top: 0;width: 100%;height: 100%;z-index: 1;}
+.eventsBgSlider li {display: block; position: relative; width: 100%;background-repeat: no-repeat;background-position: center center;background-size: cover;}
+.eventSlideOverlay {position: absolute;left: 0;top: 0;width: 100%;height: 100%;background: rgba(0,0,0,0.6);}
+.eventsContentWrap {position: relative;z-index: 2;}
+
+.events .blockTitle {padding-top: 0; color: #fff; text-align: center;margin: auto;}
+
+.eventItem {position: relative; padding: 63px 20% 65px 21%;border-top: 1px solid rgba(120,120,120,0.5);-webkit-transition: background 0.3s ease, border 0.3s ease;-moz-transition: background 0.3s ease, border 0.3s ease;-o-transition: background 0.3s ease, border 0.3s ease;transition: background 0.3s ease, border 0.3s ease; }
+.eventItem:hover {background: rgba(0,0,0,0.35);}
+.eventTime {position: absolute;left: 98px;top: 50%;opacity: 0;-webkit-transition: opacity 0.3s ease;-moz-transition: opacity 0.3s ease;-o-transition: opacity 0.3s ease;transition: opacity 0.3s ease;}
+.eventItem:hover .eventTime {opacity: 1;}
+.eventTime strong {display: block;line-height: 20px; color: #ffffff;font-size: 14px;font-weight: bold;text-transform: uppercase;-webkit-transition: color 0.3s ease;-moz-transition: color 0.3s ease;-o-transition: color 0.3s ease;transition: color 0.3s ease;}
+.eventTime p {line-height: 18px; color: #ffffff;font-size: 14px;text-transform: uppercase;-webkit-transition: color 0.3s ease;-moz-transition: color 0.3s ease;-o-transition: color 0.3s ease;transition: color 0.3s ease;}
+.eventItem h3 {line-height: 40px;color: #fff;font-size: 40px;font-weight: 300;-webkit-transition: color 0.3s ease;
+    -moz-transition: color 0.3s ease;-o-transition: color 0.3s ease;transition: color 0.3s ease;}
+.attendBtn, .attendBtn:visited {position: absolute;right: 98px;top: 50%;margin-top: -10px; 
+    line-height: 20px;padding: 0 39px 0 0;opacity: 0; color: #2ebd7f;font-size: 14px;font-weight: bold;text-transform: uppercase; text-align: center;text-decoration: none;-webkit-transition: opacity 0.3s ease, color 0.3s ease;-moz-transition: opacity 0.3s ease, color 0.3s ease;-o-transition: opacity 0.3s ease, color 0.3s ease;transition: opacity 0.3s ease, color 0.3s ease;}
+.attendBtn svg {position: absolute;right: 0;top: 5px;-webkit-transition: right 0.3s ease;
+    -moz-transition: right 0.3s ease;-o-transition: right 0.3s ease;transition: right 0.3s ease;}
+.attendBtn:hover svg {right: -4px;}
+.attendBtn svg path {-webkit-transition: fill 0.3s ease;-moz-transition: fill 0.3s ease;-o-transition: fill 0.3s ease;transition: fill 0.3s ease;}
+.eventItem:hover .attendBtn {opacity: 1;}
+
+.allEventsBtn, .allEventsBtn:visited {display: block;line-height: 73px;border-top: 1px solid rgba(120,120,120,0.5);color: #ffffff;font-size: 12px;text-transform: uppercase; text-align: center;text-decoration: none; -webkit-transition: background 0.3s ease, color 0.3s ease;-moz-transition: background 0.3s ease, color 0.3s ease;-o-transition: background 0.3s ease, color 0.3s ease;transition: background 0.3s ease, color 0.3s ease;}
+.allEventsBtn:hover {background: rgba(0,0,0,0.35);}
